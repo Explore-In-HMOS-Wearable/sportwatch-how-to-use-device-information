@@ -1,0 +1,13 @@
+<div class="container">
+    <text class="title" if="{{buttonActive}}">
+      Brand : {{ combinedResult.brand }}
+      Model : {{ combinedResult.model }}
+      Manufacturer : {{ combinedResult.manufacturer}}
+      Device Type : {{ combinedResult.deviceType}}
+      API Version : {{combinedResult.apiVersion}}
+      Language : {{ combinedResult.language}}
+      Region : {{ combinedResult.region}}
+
+    </text>
+    <input type="button" class="wearable-btn" @click="getInfo" value="{{buttonActive ? 'Hide Info' : 'About Device'}}"/>
+</div>

@@ -1,0 +1,10 @@
+{
+  "modelVersion": "5.1.0",
+  "description": "Please describe the basic information.",
+  "dependencies": {
+    "@hwbundle/device": "file:./hars/device.har",
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.21"
+  }
+}
