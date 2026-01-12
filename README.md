@@ -2,7 +2,7 @@
 
 # How to Get Device Information By Using @system.device
 
-This application demonstrates how to develop 
+This application demonstrates how to develop the functionality that can check the device information
 
 # Preview
 

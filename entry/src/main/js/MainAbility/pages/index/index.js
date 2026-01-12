@@ -28,9 +28,8 @@ export default {
             },
             fail: (data, code) => {
                 this.deviceResult = `Error getting device info:\nCode: ${code}\nData: ${data}`;
-                console.error(`Device info failed. Code: ${code}, Data: ${data}`);
             }
         });
-    },
+    }
 
 };
